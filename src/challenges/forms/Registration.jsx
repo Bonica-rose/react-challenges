@@ -24,6 +24,7 @@ const Registration = () => {
     const handleSubmit = (e) => {
         e.preventDefault()
         console.log(user)
+        alert('Form submitted successfully')
     }
 
 
